@@ -9,6 +9,7 @@ client = OpenAI(
   base_url="https://api-inference.huggingface.co/v1",
   api_key = os.getenv('API_KEY')  # Replace with your OpenAI API key
 )
+
 model_links = {
     "Mixtral-8x7B-Instruct-v0.1": "mistralai/Mixtral-8x7B-Instruct-v0.1",
     "Nous-Hermes-2-Mixtral-8x7B-DPO": "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
